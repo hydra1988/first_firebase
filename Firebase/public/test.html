@@ -8,6 +8,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/03.idol.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -27,6 +29,8 @@
         <li id="active02"><a href="02.code.html" id= "menu02">Friends</a></li>
         <li id="active03"><a href="#idol.html" id= "menu03">Family</a></li>
         <li id="active04"><a href="#section4" id= "menu04">Photos</a></li>
+        <li id="active05"><a href="#section4" id= "menu05">Photos</a></li>
+        <li id="active06"><a href="#section4" id= "menu06">Photos</a></li>
       </ul><br>
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Search Blog..">
@@ -42,32 +46,71 @@
     <div class="col-sm-9">
       <h4><small>TEST CODE</small></h4>
 
-      <div>
-      <form action="">
-        <button type="button"  class="btn btn-primary btn-lg">All</button>
-        <button type="button"  class="btn btn-primary btn-lg">Major</button>
-        <button type="button"  class="btn btn-primary btn-lg">Miner</button>
-        <input  class="btn btn-primary btn-lg" id="input_time" type="text">
-      </form>
+   
+<h2 style="text-align:center">아이도르</h2>
 
-       
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/1.jpg" >
+  </div>
 
-        <!--
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/1.jpg" >
+  </div>
 
-        -->
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/2.jpg" >
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/1.jpg" >
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/3.gif" >
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/2.jpg" >
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
 
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
 
-      </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/2.jpg"style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+        <div class="column">
+      <img class="demo cursor" src="img/1.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/3.gif" style="width:100%" onclick="currentSlide(5)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/2.jpg"style="width:100%" onclick="currentSlide(6)" alt="Mountains and fjords">
+    </div>
+  </div>
+</div>
 
-       <div>
+<script type="text/javascript" src="js/03.idol.js"></script>
 
-              <div class="jumbotron">
-                <h1 id="code_change"></h1> 
-            </div>
-                
-
-       </div>
 
 
  
